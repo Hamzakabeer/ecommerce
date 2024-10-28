@@ -1,0 +1,128 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header and navigation styling */
+header {
+    background: #56595a;
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    text-align: center;
+}
+header a {
+    color: rgb(0, 0, 0);}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: dodgerblue;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section styling */
+.hero {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Category grid */
+.category-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    background: #ddd;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.category-item a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.category-item a:hover {
+    color:mediumvioletred;
+}
+
+/* Products grid */
+.product-grid {
+    display: flex;
+    flex-wrap:wrap-reverse;
+    gap: 20px;
+    justify-content:flex-start;
+    
+}
+
+.product-item {
+    background: #fff;
+    border: 10px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 3px;
+    background: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-wa{
+color: oldlace;
+}
+
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .category-grid, .product-grid {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
