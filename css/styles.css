@@ -42,8 +42,9 @@ header a {
     font-display: none;
     font-size: larger;
     list-style: none;
-    
-    
+}
+.accessoriesh{
+    padding: 20px;
 }
 .navbar1 :link{
     text-decoration: none;
@@ -130,6 +131,7 @@ nav ul li a:hover {
     gap: 20px;
     justify-content:flex-start;
     
+    
 }
 
 .product-item {
@@ -159,6 +161,26 @@ footer {
 .img1{
     width: 50%;
 }
+
+.go1 :hover{
+    text-decoration: none;
+}
+
+.go1 :link{
+    text-decoration: none;
+}
+
+.go1:active{
+    text-decoration: none;
+}
+
+.go1 :visited{
+    text-decoration: none;
+}
+.go2{
+    color: #000000;
+}
+
 
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
