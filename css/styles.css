@@ -156,10 +156,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.footer-wa{
-color: oldlace;
+.img1{
+    width: 50%;
 }
-
 
 /* Media Queries for responsiveness */
 @media (max-width: 768px) {
