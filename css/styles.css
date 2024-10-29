@@ -14,30 +14,50 @@ body {
 
 /* Header and navigation styling */
 header {
-    background: #56595a;
+    background: #71c6ff;
     color: rgb(0, 0, 0);
-    padding: 10px 0;
+    padding: 12px 0;
     text-align: center;
 }
-.header a :active{
+.mainh :active{
 text-decoration: none;
 }
-.header a :hover{
+.mainh :hover{
     text-decoration: none;
+    
 }
-.header a :link{
+.mainh:link{
     text-decoration: none;
 
 }
-.header a :visited{
+.mainh :visited{
     text-decoration: none;
+    
    
 }
 header a {
-    color: rgb(240, 181, 54);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    font-family:sans-serif;
+    font-weight:600;
+    font-display: none;
+    font-size: larger;
+    list-style: none;
+    
+    
 }
-
+.navbar1 :link{
+    text-decoration: none;
+}
+.navbar1 :visited{
+    text-decoration: none;
+}
+.navbar1 :hover{
+    text-decoration: none;
+    color: rgb(209, 43, 43);
+}
+.navbar1 :active{
+    text-decoration: none;
+}
 
 nav ul {
     list-style: none;
@@ -71,10 +91,19 @@ nav ul li a:hover {
 /* Category grid */
 .category-grid {
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     flex-wrap: wrap;
 }
-
+.categories{
+    display: flex;
+    justify-content:center;
+    color: rgb(78, 212, 253);
+    
+}
+.para1{
+    color:darkseagreen;
+    padding: 50px;
+}
 .category-item {
     background: #ddd;
     padding: 20px;
@@ -120,8 +149,8 @@ nav ul li a:hover {
 /* Footer */
 footer {
     text-align: center;
-    padding: 3px;
-    background: #333;
+    padding: 20px;
+    background: #000000;
     color: white;
     position: fixed;
     bottom: 0;
