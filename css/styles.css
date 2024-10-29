@@ -19,16 +19,16 @@ header {
     padding: 10px 0;
     text-align: center;
 }
-.mainh :active{
+.header a :active{
 text-decoration: none;
 }
-.mainh :hover{
+.header a :hover{
     text-decoration: none;
 }
-.mainh :link{
+.header a :link{
     text-decoration: none;
 }
-.mainh :visited{
+.header a :visited{
     text-decoration: none;
 }
 header a {
