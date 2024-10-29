@@ -19,6 +19,18 @@ header {
     padding: 10px 0;
     text-align: center;
 }
+.mainh :active{
+text-decoration: none;
+}
+.mainh :hover{
+    text-decoration: none;
+}
+.mainh :link{
+    text-decoration: none;
+}
+.mainh :visited{
+    text-decoration: none;
+}
 header a {
     color: rgb(0, 0, 0);}
 
